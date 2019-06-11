@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: qa-tools
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: qa-tools
+  pipelines: {}
